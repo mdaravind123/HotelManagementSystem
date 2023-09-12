@@ -13,29 +13,35 @@
   <main>
   <div class="container">
     <form id="authenticate" action="/admin.html" method="post">
-      <label for="email">Email</label>
-      <input type="email" id="email" class="email" autocomplete="false" name="email"><br>
-      <br>
-      <label for="password">Password</label>
-      <input type="password" id="password" autocomplete="off" name="password"><br>
-      <br>
+      <div class="form-content">
+     
+      <input type="email" id="email" class="input-field" autocomplete="false" name="email" placeholder="Email" style="border: none;">
+      
+      
+      <input type="password" id="password" autocomplete="off" name="password" class="input-field" placeholder="Password" style="border: none;">
+      
       <input type="checkbox" id="showpassword" onclick="check()">
-      <label for="showpassword">Show Password</label><br>
-      <br>
+      <div class="text">
+      <label for="showpassword" >Show Password</label>
+      </div>
+      <div class="text">
       <label for="usertype">UserType</label>
       <select id="usertype" name="usertype">
         <option></option>
         <option>Admin</option>
         <option>Guest</option>
         <option>Employees</option>
-      </select><br>
-      <br>
+      </select>
+    </div>
+      <div class="btns">
       <button id="login">Login</button>
-      <button id="reset">Reset</button><br>
-      <br>
-      <p>Don't have an account?</p>
-      <button class="signup" id="signup"><a style="text-decoration:none;color:black;" href="./signup.html">SignUp</a></button>
+      <button id="reset">Reset</button>
+      </div>
+      
+      <p style="color: white;">Don't have an account?</p>
+      <button class="signup" id="signup" style="width: 90%;"><a style="text-decoration:none;color:black;" href="./signup.html">SignUp</a></button>
     </form>
+  </div>
   </div>
   </main>
   <footer>
@@ -45,4 +51,6 @@
   <script src="../server.js"></script>
 </body>
 </html>
+
+
 
