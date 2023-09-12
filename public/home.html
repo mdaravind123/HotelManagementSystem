@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+  <header>
+    <h1>Star Hotel</h1>
+  </header>
+  <main>
+  <div class="container">
+    <form id="authenticate" action="/admin.html" method="post">
+      <label for="email">Email</label>
+      <input type="email" id="email" class="email" autocomplete="false" name="email"><br>
+      <br>
+      <label for="password">Password</label>
+      <input type="password" id="password" autocomplete="off" name="password"><br>
+      <br>
+      <input type="checkbox" id="showpassword" onclick="check()">
+      <label for="showpassword">Show Password</label><br>
+      <br>
+      <label for="usertype">UserType</label>
+      <select id="usertype" name="usertype">
+        <option></option>
+        <option>Admin</option>
+        <option>Guest</option>
+        <option>Employees</option>
+      </select><br>
+      <br>
+      <button id="login">Login</button>
+      <button id="reset">Reset</button><br>
+      <br>
+      <p>Don't have an account?</p>
+      <button class="signup" id="signup"><a style="text-decoration:none;color:black;" href="./signup.html">SignUp</a></button>
+    </form>
+  </div>
+  </main>
+  <footer>
+    &copyStar Hotel
+  </footer>
+  <script src="./script.js"></script>
+  <script src="../server.js"></script>
+</body>
+</html>
+

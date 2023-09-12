@@ -1,0 +1,108 @@
+
+header{
+  font-family:cursive;
+  text-align:center;
+  color:black;
+  position:absolute;
+  top:0px;
+  width:100%;
+}
+
+h3{
+  font-family:cursive;
+  text-align:center;
+  color:black;
+}
+
+
+body{
+  background-image:url('./hotel1.png');
+
+}
+
+.container{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:350px;
+  height:300px;
+  padding:40px;
+  border:1px solid black;
+  border-radius:3px;
+  background-color:lightskyblue;
+  font-family:cursive;
+}
+
+.email{
+  margin-left:27px;
+  border:1px solid black;
+  width:250px;
+  cursor:pointer;
+  height:15px;
+  padding:5px;
+  font-family:cursive;
+  border-radius:3px;
+}
+
+input[type="password"],input[type="text"]{
+  border:1px solid black;
+  width:250px;
+  cursor:pointer;
+  height:15px;
+  padding:5px;
+  font-family:cursive;
+  border-radius:3px;
+}
+
+input[type="checkbox"]{
+  cursor:pointer;
+  border:2px solid black;
+  width:25px;
+  height:15px;
+  border-radius:2px;
+}
+
+select{
+  border:1px solid black;
+  width:260px;
+  cursor:pointer;
+  height:30px;
+  font-family:cursive;
+  border-radius:3px;
+  padding:5px;
+}
+
+button{
+  cursor:pointer;
+  border:1px solid black;
+  width:60px;
+  height:30px;
+  padding:5px;
+  font-family:cursive;
+  background-color:gold;
+  border-radius:3px;
+}
+
+.signup{
+  cursor:pointer;
+  border:1px solid black;
+  width:347px;
+  height:30px;
+  font-family:cursive;
+  border-radius:5px;
+}
+
+p{
+  margin-left:80px;
+  color:blueviolet;
+  text-decoration: underline;
+}
+
+
+footer{
+  position:absolute;
+  bottom:25px;
+  left:50%;
+  color:white;
+}
